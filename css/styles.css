@@ -1,1 +1,52 @@
-
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+h1{
+  margin: 0;
+}
+div.top-container{
+  background-color: #bee3db;
+  position: relative;
+  padding-top: 100px;
+}
+div.middle-container{
+padding-top: 10px;
+}
+div.bottom-container{
+  margin: 0 auto;
+}
+.top-cloud{
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+.mountain{
+  position: relative;
+  top: 5px;
+}
+.circle-img{
+  margin: 10px auto;
+  background-color: #BEE3DB;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+.skill-icon{
+  width: 150px;
+}
+#inventory{
+  background-color: #89B0AE;
+}
+#problem-solving{
+  background-color: #555B6E;
+}
